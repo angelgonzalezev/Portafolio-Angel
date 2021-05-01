@@ -1,0 +1,73 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+}
+.menu{
+  background-color: red;
+  color: #90B4CE;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.menu ol{
+  display: flex;
+  height: inherit;
+}
+.menu ol li{
+  margin: 0;
+  padding: 0;
+  height: inherit;
+  list-style: none;
+}
+.menu a, header a:link, header a:visited, header a:active{
+  color: #90B4CE;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.container{
+  flex: auto;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+
+
+
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+.social-link.twitter{
+    background-image: url(../images/twitter.svg);
+    background-size:50px 50px;
+}
+.social-link.facebook{
+    background-image: url(../images/facebook.svg);
+    background-size:50px 50px;
+}
+.social-link.github{
+    background-image: url(../images/github.svg);
+    background-size:50px 50px;
+}
+.social-link.instagram{
+    background-image: url(../images/instagram.svg);
+    background-size:50px 50px;
+}
+.social-link.linkedin{
+    color: white;
+    background-image: url(../images/linkedin.svg);
+
+    background-size:50px 50px;
+}
