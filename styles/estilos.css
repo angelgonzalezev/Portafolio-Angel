@@ -4,40 +4,80 @@ html{
 body{
   margin: 0;
 }
-.menu{
-  background-color: red;
+.header{
+  background-color: rgb(189, 250, 189);
   color: #90B4CE;
   height: 97px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  font-family: 'Rubik', sans-serif;
 }
-.menu ol{
-  display: flex;
-  height: inherit;
-}
-.menu ol li{
-  margin: 0;
-  padding: 0;
-  height: inherit;
-  list-style: none;
-}
-.menu a, header a:link, header a:visited, header a:active{
-  color: #90B4CE;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-.container{
-  flex: auto;
+.header-container{
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+  width: 1188px;
 }
+.header-logo{
+  position: static;
+  width: 187px;
+  height: 24px;
+  left: 89px;
+  top: 36.5px;
+  color: #90B4CE;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+}
+.header-menu{
+width: 480px;
+height: 33;
+display: flex;
+margin: 0;
+padding: 0;
+}
+.header-menu ol{
+  width: inherit;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header-menu ol li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+.header-menu ol li:hover{
+  color: red;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+.header-menu a{
+  height: 27px;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 27px;
+  display: block;
+  color: #2B79BD;
+}
+.header-logo a:link, .header-logo a:visited, .header-logo a:active{
+  text-decoration: none;
+  display: block;
+  color: #90B4CE;
+}
+.header-menu a:link, .header-menu a:visited, .header-menu a:active{
+  text-decoration: none;
+  display: block;
+}
+
 
 
 
