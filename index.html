@@ -14,10 +14,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="Inicio">
     <div class="header-container">
       <div class="header-logo">
-        <a href="#">Ángel González</a>
+        <a href="#Inicio">Ángel González</a>
       </div>
       <nav class="header-menu">
         <ol class="header-menu-ol">
@@ -31,7 +31,7 @@
             <a href="#experience">EXPERIENCE</a>
           </li>
           <li>
-            <a href="#">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ol>
       </nav>
@@ -113,7 +113,12 @@
       <p>I have more than 2 years of experience as a developer.</p>
       <hr>
       <article class="experience-block">
-        <h3 class="experience-company">VIEWNEXT - IBM</h3>
+        <div class="experience-company">
+          <figure class="experience-company-logo">
+            <img src="./images/logo-viewnext.jfif" width=50px" height="50px" alt="Foto de Angel Gonzalez">
+          </figure>
+          <h3>Viewnext - IBM</h3>
+        </div>
         <p class="experience-position">Software QA Automation Developer</p>
         <p class="experience-details">
           Viewnext is an Information Technology Services company of the IBM group in Spain, specialising in management services
@@ -125,7 +130,12 @@
         </p>
       </article>
       <article>
-        <h3 class="experience-company">Avanade - Microsoft</h3>
+        <div class="experience-company">
+          <figure class="experience-company-logo">
+            <img src="./images/logo-avanade.png" width=50px" height="50px" alt="Foto de Angel Gonzalez">
+          </figure>
+          <h3>Avanade</h3>
+        </div>
         <p class="experience-position">Analyst, Software Engineering</p>
         <p class="experience-details">
           Avanade is the leading provider of innovative digital and cloud services, business solutions and design-led experiences
@@ -137,23 +147,22 @@
       </article>
     </div>
   </section>
-<!--
+
   <section class="contact" id="contact">
-    <div class="container1">
-      <h2>Do you want to contact me? <br> Ping me!</h2>
-      <div class="social">
-        <a href="https://twitter.com/angelgonzalezev" class="social-link twitter" target="_blank"></a>
-        <a href="https://instagram.com/angelgonzalezev" class="social-link instagram" target="_blank"></a>
+    <div class="contact-container">
+      <h2>Contact</h2>
+      <div class="contact-social">
+        <a href="https://twitter.com/angelgonzaleh" class="social-link twitter" target="_blank"></a>
+        <a href="https://instagram.com/angelgonzaleh" class="social-link instagram" target="_blank"></a>
         <a href="https://linkedin.com/in/angelgonzalezev" class="social-link linkedin" target="_blank"></a>
         <a href="https://github.com/angelgonzalezev" class="social-link github" target="_blank"></a>
       </div>
     </div>
   </section>
-
   <footer class="footer">
     <div class="footer-container">
       <div>
-        <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi"></p>
+        <p>2021. Web Development</p>
       </div>
       <div>
         <p>
@@ -162,6 +171,5 @@
       </div>
     </div>
   </footer>
-  -->
 </body>
 </html>

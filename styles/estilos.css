@@ -99,7 +99,8 @@ padding: 0;
 }
 .hero h1{
   align-items: center;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 700;
   color: #094067;
 }
 .hero p{
@@ -127,7 +128,7 @@ padding: 0;
   width: 414px;
 }
 .portfolio-project-details-title{
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 64px;
   line-height: 76px;
   color: #094067;
@@ -200,14 +201,26 @@ padding: 0;
   font-size: 18px;
   line-height: 27px;
 }
+
 .experience-company{
+  display: flex;
+  align-content: center;
+}
+.experience-company-logo{
+  margin: 0;
+  align-items: center;
+  display: inherit;
+}
+
+.experience-company h3{
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
   color: white;
+  padding-left: 15px;
 }
 .experience-position{
-  color: white;
+  color: #D8EEFE !important;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
@@ -219,9 +232,28 @@ padding: 0;
   font-size: 16px;
   line-height: 25px;
 }
-
-
-
+.contact{
+  background-color: #094067;
+  align-content: center;
+}
+.contact-container{
+  width: 676px;
+  margin: 0 auto;
+  align-content: center;
+  padding-top: 50px;
+}
+.contact-container h2{
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+}
+.contact-social{
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
 .social-link{
     display: inline-block;
     width: 50px;
@@ -249,4 +281,26 @@ padding: 0;
     background-image: url(../images/linkedin.svg);
 
     background-size:50px 50px;
+}
+
+.footer{
+  margin: 0 auto;
+  align-content: center;
+  background-color: #094067;
+}
+.footer-container{
+  padding: 90px 80px 48px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.footer p{
+  color: #90B4CE;
+}
+.footer a:active, .footer a:link, .footer a:visited{
+  text-decoration: none;
+  color: #90B4CE;
+}
+.footer a:hover{
+  color: #3DA9FC;
 }
