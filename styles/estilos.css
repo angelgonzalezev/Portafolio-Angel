@@ -1,11 +1,11 @@
 html{
   scroll-behavior: smooth;
 }
-body{
+body, h1, h2, p{
   margin: 0;
+  font-family: Inter;
 }
 .header{
-  background-color: rgb(189, 250, 189);
   color: #90B4CE;
   height: 97px;
   display: flex;
@@ -77,8 +77,35 @@ padding: 0;
   text-decoration: none;
   display: block;
 }
+.hero{
+  display: inherit;
+  align-items: center;
+  height: 480px;
+}
+.hero-container{
+  max-width: 1000px;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex: 1;
+}
+.hero-text{
+  padding: 20px;
+}
+.hero-image{
+  object-fit: cover;
+}
+.hero h1{
+  align-items: center;
+  font-size: 40px;
 
-
+}
+.hero p{
+  align-items: center;
+  padding-top: 30px;
+}
 
 
 
