@@ -4,6 +4,7 @@ html{
 body, h1, h2, p{
   margin: 0;
   font-family: Inter;
+  color: #2B79BD;
 }
 .header{
   color: #90B4CE;
@@ -55,7 +56,6 @@ padding: 0;
   align-items: center;
 }
 .header-menu ol li:hover{
-  color: red;
   text-decoration: underline;
   text-decoration-thickness: 3px;
 }
@@ -100,12 +100,83 @@ padding: 0;
 .hero h1{
   align-items: center;
   font-size: 40px;
-
+  color: #094067;
 }
 .hero p{
   align-items: center;
   padding-top: 30px;
+  color: #5F6C7B;
 }
+.portfolio{
+  display: inherit;
+  align-items: center;
+  background-color: #D8EEFE;
+}
+.portfolio-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+.portfolio-project{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+}
+.portfolio-project-details{
+  width: 414px;
+}
+.portfolio-project-details-title{
+  font-weight: 700px;
+  font-size: 64px;
+  line-height: 76px;
+  color: #094067;
+}
+.portfolio-project-details-description{
+  color: #5F6C7B;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+.portfolio-project-buttons{
+  margin-top: 22px;
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio-project-buttons input{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 0 19px;
+  font-family: Inter;
+}
+.blue-button{
+  width: 199px;
+  height: 51px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3DA9FC;
+  color: white;
+}
+.transparent-button{
+  width: 191px;
+  height: 51px;
+  color: #094067;
+  border: 3px solid #094067;
+  border-radius: 3px;
+  background-color: transparent;
+
+}
+.portfolio-project-image{
+  object-fit: cover;
+}
+.portfolio-project-image img{
+  width: 400px;
+  height: auto;
+
+}
+
 
 
 
