@@ -177,7 +177,48 @@ padding: 0;
 
 }
 
-
+.experience{
+  background-color: #094067;
+  align-content: center;
+}
+.experience-container{
+  width: 676px;
+  margin: 0 auto;
+  align-content: center;
+  padding-top: 50px;
+}
+.experience-container h1{
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+}
+.experience-container p{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+.experience-company{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: white;
+}
+.experience-position{
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.experience-details{
+  color: white;
+  font-weight: normal !important;
+  font-size: 16px;
+  line-height: 25px;
+}
 
 
 
